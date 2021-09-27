@@ -1,0 +1,435 @@
+{
+	"info": {
+		"_postman_id": "663a2512-fcc8-4b87-a037-6d68d074c0b0",
+		"name": "postman_data",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
+	},
+	"item": [
+		{
+			"name": "http://127.0.0.1:8000/courses/api/lecture/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ubuntu",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "ubuntu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "csrfmiddlewaretoken",
+						"value": "qyYDa6d1X1gI3LKamqZbZes73o8TzJzrPxIGUVTlj8xPElJuupOckdggVwySOgWK",
+						"type": "text"
+					},
+					{
+						"key": "X-CSRFToken",
+						"value": "E4CqRng0LKouFrTsxDQh6A3xjSLkAPiu33mtBcWk7RFBg1SMFCFirzRGb0bjPmFN",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"test12\",\r\n    \"sections\": 1\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/courses/api/lecture/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"courses",
+						"api",
+						"lecture",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/courses/api/lecture/",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ubuntu",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "ubuntu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "csrfmiddlewaretoken",
+						"value": "qyYDa6d1X1gI3LKamqZbZes73o8TzJzrPxIGUVTlj8xPElJuupOckdggVwySOgWK",
+						"type": "text"
+					},
+					{
+						"key": "X-CSRFToken",
+						"value": "E4CqRng0LKouFrTsxDQh6A3xjSLkAPiu33mtBcWk7RFBg1SMFCFirzRGb0bjPmFN",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"test12\",\r\n    \"sections\": 1\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/courses/api/lecture/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"courses",
+						"api",
+						"lecture",
+						""
+					],
+					"query": [
+						{
+							"key": null,
+							"value": "",
+							"disabled": true
+						}
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/courses/api/lecture/1/",
+			"protocolProfileBehavior": {
+				"disableBodyPruning": true
+			},
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ubuntu",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "ubuntu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "GET",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "csrfmiddlewaretoken",
+						"value": "qyYDa6d1X1gI3LKamqZbZes73o8TzJzrPxIGUVTlj8xPElJuupOckdggVwySOgWK",
+						"type": "text"
+					},
+					{
+						"key": "X-CSRFToken",
+						"value": "E4CqRng0LKouFrTsxDQh6A3xjSLkAPiu33mtBcWk7RFBg1SMFCFirzRGb0bjPmFN",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/courses/api/lecture/1/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"courses",
+						"api",
+						"lecture",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/courses/api/lecture/1/",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ubuntu",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "ubuntu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "PUT",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "csrfmiddlewaretoken",
+						"value": "qyYDa6d1X1gI3LKamqZbZes73o8TzJzrPxIGUVTlj8xPElJuupOckdggVwySOgWK",
+						"type": "text"
+					},
+					{
+						"key": "X-CSRFToken",
+						"value": "E4CqRng0LKouFrTsxDQh6A3xjSLkAPiu33mtBcWk7RFBg1SMFCFirzRGb0bjPmFN",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"title\": \"Setting up on windows1\",\r\n    \"sections\": 1\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/courses/api/lecture/1/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"courses",
+						"api",
+						"lecture",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/courses/api/lecture/1/",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "ubuntu",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "ubuntu",
+							"type": "string"
+						}
+					]
+				},
+				"method": "DELETE",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "csrfmiddlewaretoken",
+						"value": "qyYDa6d1X1gI3LKamqZbZes73o8TzJzrPxIGUVTlj8xPElJuupOckdggVwySOgWK",
+						"type": "text"
+					},
+					{
+						"key": "X-CSRFToken",
+						"value": "E4CqRng0LKouFrTsxDQh6A3xjSLkAPiu33mtBcWk7RFBg1SMFCFirzRGb0bjPmFN",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": ""
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/courses/api/lecture/1/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"courses",
+						"api",
+						"lecture",
+						"1",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/user/login/",
+			"request": {
+				"auth": {
+					"type": "basic",
+					"basic": [
+						{
+							"key": "password",
+							"value": "myuser5pass",
+							"type": "string"
+						},
+						{
+							"key": "username",
+							"value": "myuser5",
+							"type": "string"
+						}
+					]
+				},
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "csrfmiddlewaretoken",
+						"value": "1NbzAOKX9meELo2wrV1aUhJdNuBtfrrqTqcIYYC79sPsdTVzUr0pFNciZUM4nxGT",
+						"type": "text"
+					},
+					{
+						"key": "X-CSRFToken",
+						"value": "BHMiAbunSgxYQ3fPVd6GROg9cXbqaUloJrYxwFHdGn7B2BHokFkf2EuNKlg8AKyO",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"myuser5\",\r\n    \"password\": \"myuser5pass\"\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/user/login/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"user",
+						"login",
+						""
+					]
+				}
+			},
+			"response": []
+		},
+		{
+			"name": "http://127.0.0.1:8000/user/registration/",
+			"request": {
+				"method": "POST",
+				"header": [
+					{
+						"key": "Content-Type",
+						"value": "application/json",
+						"type": "text"
+					},
+					{
+						"key": "csrfmiddlewaretoken",
+						"value": "qyYDa6d1X1gI3LKamqZbZes73o8TzJzrPxIGUVTlj8xPElJuupOckdggVwySOgWK",
+						"type": "text"
+					},
+					{
+						"key": "X-CSRFToken",
+						"value": "E4CqRng0LKouFrTsxDQh6A3xjSLkAPiu33mtBcWk7RFBg1SMFCFirzRGb0bjPmFN",
+						"type": "text"
+					}
+				],
+				"body": {
+					"mode": "raw",
+					"raw": "{\r\n    \"username\": \"myuser5\",\r\n    \"email\": \"myuser5@u.com\",\r\n    \"password1\": \"myuser5pass\",\r\n    \"password2\": \"myuser5pass\"\r\n}"
+				},
+				"url": {
+					"raw": "http://127.0.0.1:8000/user/registration/",
+					"protocol": "http",
+					"host": [
+						"127",
+						"0",
+						"0",
+						"1"
+					],
+					"port": "8000",
+					"path": [
+						"user",
+						"registration",
+						""
+					]
+				}
+			},
+			"response": []
+		}
+	]
+}

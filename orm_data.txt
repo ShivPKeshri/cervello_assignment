@@ -1,0 +1,22 @@
+>>> from courses.models import *
+>>>
+>>> # Find all the lectures that belong to a given course say 'Flask
+>>> 
+>>> lecture_qs = Lectures.objects.filter(sections__courses__title='Flask')
+>>> lecture_qs
+<QuerySet [<Lectures: Setting up on windows>, <Lectures: Setting up on linux>, <Lectures: Introduction to flask>, <Lectures: design a restaurant database>]>
+>>>
+>>>
+>>> # Which course has a given Section with title 'Set-up
+>>>
+>>> courses_qs = Courses.objects.filter(sections__title='Set-up')
+>>> courses_qs
+<QuerySet [<Courses: Flask>]>
+>>> 
+>>> 
+>>> # Which course has no lecture containing keyword 'design'
+>>> 
+>>> lecture_qs = Courses.objects.exclude(sections__lectures__title__contains='design')
+>>> lecture_qs
+<QuerySet [<Courses: Nodejs>]>
+>>>
